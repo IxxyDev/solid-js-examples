@@ -23,6 +23,7 @@ class Sword extends Weapon {
 class Weapon {
   // only stuff, that EVERY weapon would use
   cost;
+  dealDamage() {}
 }
 
 class Rifle extends Weapon {
